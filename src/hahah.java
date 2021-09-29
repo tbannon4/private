@@ -1,12 +1,10 @@
-package numberLists;
 
-import numberLists.NumberList;
 
-public class NumberListRunner 
+public class hahah
 {
 	public static void main(String[] args)
 	{
-		NumberList nl = new NumberList();
+		letsgo nl = new letsgo();
 		
 		// while loop  (make something, test something, change something)
 		/*int count = 0;
@@ -28,6 +26,8 @@ public class NumberListRunner
 		int oddSum = nl.sumOfOdds();
 		double average = nl.average();
 		System.out.println("Average = " + average);
+		int sumofsq = nl.sumOfSquares();
+		System.out.println("Sum of the evens suared = " + sumofsq);
 		
 		/*System.out.println("Odd sum = " + oddSum);
 		int min = nl.min();

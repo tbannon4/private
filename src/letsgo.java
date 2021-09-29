@@ -1,16 +1,16 @@
-package default package
-//class that exists in java, have to import it to use that class
+
+
 import java.util.ArrayList;
 
 //list methods : get, set, add, remove, size
 
-public class NumberList
+public class letsgo
 {
 	//use an array list you have to import the array list class
 	private ArrayList<Integer> list;
 	//lists can only hold objects, not primitives
 	//if a list of Strings, it would say String in the pointy braces
-	public NumberList()
+	public letsgo()
 	{
 		list = new ArrayList<Integer>();
 	}
@@ -163,7 +163,20 @@ public class NumberList
 			System.out.println(num);
 		}
 	}
+	public int sumOfSquares()
+	{
+		int sum = 0;
+		for(int index = 0; index < list.size(); index++)
+		{
+			int num = list.get(index);
+			if(num % 2 == 0)
+			{
+				num = num * num;
+				sum += num;
+				index++;
+			}
 	
-	
-	
+		}	
+		return sum;
+	}
 }
